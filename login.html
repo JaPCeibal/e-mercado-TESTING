@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>eMercado - Todo lo que busques está aquí</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: rgb(248, 249, 250);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="mt-5">
+    <div class="signin text-center">
+      <img class="mb-4" src="img/login.png" alt="" width="300">
+      <h1 class="h3 mb-3 font-weight-normal">Inicio de sesión</h1>
+      <label for="inputEmail" class="sr-only">Email</label>
+      <input type="email" id="inputEmail" class="form-control mb-2" placeholder="Email" required="" autofocus="">
+      <div class="invalid-feedback mb-2 text-left">
+        Ingresa tu e-mail
+      </div>
+      <label for="inputPassword" class="sr-only">Contraseña</label>
+      <input type="password" id="inputPassword" class="form-control mb-2" placeholder="Contraseña" required="">
+      <div class="invalid-feedback mb-2 text-left">
+        Ingresa tu contraseña
+      </div>
+      <button type="button" class="btn btn-lg btn-primary btn-block mt-4" id="submitBtn">Ingresar</button>
+      <div class="mt-2">
+        <a href="sign-in.html">Registrarme</a>
+      </div>
+    </div>
+  </main>
+  <div class="alert fade alert-danger" role="alert" id="alertResult">
+    <span id="resultSpan">Datos incorrectos</span>
+  </div>
+  <footer class="text-muted">
+    <div class="container">
+      <p class="float-end">
+        <a href="#">Volver arriba</a>
+      </p>
+      <p>Este sitio forma parte de <a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jovenes a Programar</a> -
+        2022</p>
+      <p>Clickea <a target="_blank" href="Letra.pdf">aquí</a> para descargar la letra del obligatorio.</p>
+    </div>
+  </footer>
+  
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/login.js"></script>
+</body>
+
+</html>
